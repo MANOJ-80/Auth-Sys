@@ -49,7 +49,7 @@ export default function Signup(){
       })
       .catch(err => console.log(err))
       
-  }
+  }    
 
     return(
         <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
